@@ -26,6 +26,13 @@
     width: 56px;
     height: 56px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border: 1px solid transparent;
+}
+
+.miniaturas img:hover {
+    border: 1px solid  #0284c7;
 }
 
 h1 {
@@ -152,4 +159,13 @@ a:after {
 }
 
 
-/* Oi? */
+/* Animação */
+
+.principal {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
